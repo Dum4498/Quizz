@@ -6,6 +6,7 @@ res.textContent = texte;
 res.style.color = couleur;
 }
 </script>
+<link rel="stylesheet" href="questionnaire.CSS">
 </head>
 <body>
     <h1>Questionnaire</h1>
@@ -13,24 +14,43 @@ res.style.color = couleur;
     <p>Comment s'appelle le <a href="https://www.instagram.com/camille.dum/p/CLJpsLzsU7b/"><em>chien</em></a><br>
     <br>
     <br>
-    <button onclick="afficherResultat('Raté','red')">Uno</button>
-    <button onclick="afficherResultat('Bonne réponse !','green')">Narcos</button>
-    <button onclick="afficherResultat('Enculer de ta race!','red')">Camille</button>
+    <button class="chien" onclick="afficherResultat('Raté','red')">Uno</button>
+    <button class="chien" onclick="afficherResultat('Bonne réponse !','green')">Narcos</button>
+    <button class="chien" onclick="afficherResultat('Enculé de ta race!','red')">Camille</button>
     <br>
     <br>
     <p>Combien font 6+3</p>
     <br>
     <br>
-    <button style="font-size : 50px"onclick="afficherResultat('Non','red')">1</button>
-    <button style="font-size :50px" onclick="afficherResultat('Non-plus','red')">2</button>
-    <button style="font-size :50px" onclick="afficherResultat('Toujours pas','red')">3</button><br>
-    <button style="font-size :50px" onclick="afficherResultat('Non','red')">4</button>
-    <button style="font-size :50px" onclick="afficherResultat('Deumeuré.e','red')">5</button>
-    <button style="font-size :50px" onclick="afficherResultat('Non','red')">6</button><br>
-    <button style="font-size :50px" onclick="afficherResultat('Presque','red')">7</button>
-    <button style="font-size :50px" onclick="afficherResultat('Non','red')">8</button>
-    <button style="font-size :50px" onclick="afficherResultat('OUIIIII C EST BIEN !','green')">9</button>
-<p style="font-size :50px" 
+    <button class="num" onclick="afficherResultat('Non','red')">1</button>
+    <button class="num" onclick="afficherResultat('Non-plus','red')">2</button>
+    <button class="num" onclick="afficherResultat('Toujours pas','red')">3</button><br>
+    <button class="num" onclick="afficherResultat('Non','red')">4</button>
+    <button class="num" onclick="afficherResultat('Deumeuré.e','red')">5</button>
+    <button class="num" onclick="afficherResultat('Non','red')">6</button><br>
+    <button class="num" onclick="afficherResultat('Presque','red')">7</button>
+    <button class="num" onclick="afficherResultat('Non','red')">8</button>
+    <button class="num" onclick="afficherResultat('OUIIIII C EST BIEN !','green')">9</button>
+<br>
+<br>
+<p>Quel est la différence entre un chargeur et un magasin sur une arme a feu ?</p>
+<br>
+<br>
+<button class="gun" onclick="afficherResultat('Tout a fait bg', 'green')">l’un est fixe et l’autre modulaire</button>
+<button class="gun" onclick="afficherResultat('et non','red')">c’est pareil</button>
+<br>
+<br>
+<p>Quel fusil était réglementaire dans l’armée française pendant la première         guerre mondiale</p>
+<br>
+<br>
+<button class="ww1" onclick="afficherResultat('non, Britannique','red')">SMLE Lee Enfield</button>
+<button class="ww1" onclick="afficherResultat('En effet','green')">Lebel 1886</button>
+<button class="ww1" onclick="afficherResultat('non, Allemand','red')">Gewehr 98</button>
+<button class="ww1" onclick="afficherResultat ('non, Américain, et entre nous c’est une copie mécanique du Gewehr','red')">Springfield 1903</button>
+<button class="ww1" onclick="afficherResultat ('tout a fait, très rare fusil semi-automatique','green')">RSC 1917</button>
+<button class="ww1" onclick="afficherResultat('non, Russe !','red')">Mosin Nagant 1891</button>
+<button class="ww1" onclick="afficherResultat('tout a fait j’en ai un en plus','green')">Berthier 1907/15</button>
+<p style="font-size :50px""
 id="resultat"></p><br>
     </body>
 </html>
