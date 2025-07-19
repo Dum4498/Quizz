@@ -1,0 +1,27 @@
+body {background-color : grey;}
+.num {font-size : 50px;
+color : black;
+background-color : gray;
+border-radius : 25px 10px 25px 10px;
+box-shadow : 0 5px;}
+.chien {border-radius : 10px;
+font-size : 30px;
+background-color : gray;
+font-weight : bold;
+box-shadow : 0 5px;}
+h1 {text-align : center;}
+h2 {text-align : center;}
+.gun {text-align : center;
+width : 200px;
+height : 50px;
+font-weight : bold;
+background-color : gray;
+margin:5px;
+box-shadow : 0 5px;}
+.ww1 {border-radius : 10px;
+width : 200px;
+height : 30px;
+background-color : gray;
+margin : 5px;
+box-shadow : 0 5px;
+font-weight : bold;}
